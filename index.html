@@ -1,1 +1,63 @@
 
+<html>
+    <script>
+      
+      //#1
+      
+      function add(a,b){
+          return  a+b
+      } 
+      console.log(add(2,4))
+    
+    //#2
+ 
+   function multiply(a,b) {
+       var alr = 0
+       for( var i=1; i<=b; i+=1){
+           alr= a+alr
+
+       }
+       return alr}
+       console.log(multiply(6,8))
+   
+    // #3
+
+       function multiply(a,b) {
+       var alr = 0
+       for( var i=1; i<=b; i+=1){
+           alr= a+alr
+
+       }
+       return alr}
+       console.log(multiply(32,8))
+       
+       // #4
+       
+       function factorial(a) {
+       var alr = 1
+       for( var i=1; i<=a; i+=1){
+           alr = multiply(i,alr)
+
+       }
+       return alr}
+       console.log(factorial(4))
+
+       //#5
+      
+      
+       function fibonacci(n) {
+    var alr = [0,1,1,2] 
+    for( var i=3; i<=n;i+=1) {
+        fa = alr[alr.length-1]
+        za = alr[alr.length-2]
+      alr.push(fa+za)
+    }
+       return alr[n]
+       }
+    console.log()
+     
+
+
+   
+    </script>
+</html>
